@@ -1,4 +1,4 @@
-# 2721-assembly-presentation
+# COMP 2721 ASM Presentation
 
 Team Members
 - Brian Kwon
