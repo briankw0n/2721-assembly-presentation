@@ -63,7 +63,7 @@ multiplyLoop:
     sub     bl, 48          ; subtract 48 from value of bl to convert to decimal representation of ASCII value
     add     eax, ebx        ; add value of ebx to value of eax
     mov     ebx, 10         ; set ebx to 10
-    mul     ebx             ; multiply value of eax by value of ebx to get place value
+    mul     ebx             ; multiply value of eax by 10 to shift to the left by one digit
     inc     ecx             ; increment ecx
     jmp     multiplyLoop    ; jump to multiplyLoop
  
