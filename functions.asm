@@ -124,7 +124,7 @@ iprintLF:
     mov     eax, 0Ah        ; move 0Ah into eax (0Ah = ASCII character for newline character)
     push    eax             ; push newline character onto stack
     mov     eax, esp        ; move address of current stack pointer into eax
-    call    sprint          ; call sprint function
+    call    sprint          ; call sprint function to print newline character
     pop     eax             ; pop newline character from stack
     pop     eax             ; pop from stack to restore value of eax
     ret                     ; return from function
