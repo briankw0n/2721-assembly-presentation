@@ -3,7 +3,7 @@
 
 section .data
     prompt1     db "Enter first positive integer: ", 0
-    prompt2     db "Enter second postive integer : ", 0
+    prompt2     db "Enter second postive integer: ", 0
     prompt3     db "The product is ", 0
 
 section .bss
