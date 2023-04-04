@@ -71,7 +71,7 @@ multiplyLoop:
     cmp     ecx, 0          ; compare value of ecx with 0
     je      restore         ; jump to restore if equal to 0
     mov     ebx, 10         ; set ebx to 10
-    div     ebx             ; divide value of eax by value of ebx
+    div     ebx             ; divide value of eax by 10 to shift to the right by one digit
  
 restore:
     pop     esi             ; pop from stack to restore value of esi
